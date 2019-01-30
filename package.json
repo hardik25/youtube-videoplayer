@@ -1,9 +1,8 @@
 {
   "name": "redux-simple-starter",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Youtube videoplayer app",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
     "start": "node server.js", 
     "heroku-postbuild": "webpack -p",
@@ -11,7 +10,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "",
+  "author": "Hardik Tewari",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
